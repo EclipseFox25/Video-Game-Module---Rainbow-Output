@@ -1,0 +1,19 @@
+CMakeFiles/FreeRTOS.dir/lib/freertos_kernel/portable/GCC/ARM_CM0/port.c.obj: \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/portable/GCC/ARM_CM0/port.c \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/include/FreeRTOS.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdint.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/_default_types.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/features.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/_newlib_version.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_intsup.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_stdint.h \
+ /Users/eclipse/desktop/vgm/config/FreeRTOSConfig.h \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/include/projdefs.h \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/include/portable.h \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/include/deprecated_definitions.h \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/portable/GCC/ARM_CM0/portmacro.h \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/include/mpu_wrappers.h \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/include/task.h \
+ /Users/eclipse/desktop/vgm/lib/freertos_kernel/include/list.h
