@@ -16,6 +16,17 @@
 #include "usb.h"
 #include "bitmaps.h"
 
+// Define rainbow colors in RGB565 format
+static const uint16_t rainbow_colors[] = {
+    0xF800, // Red
+    0xFC00, // Orange
+    0xFFE0, // Yellow
+    0x07E0, // Green
+    0x001F, // Blue
+    0x781F, // Indigo
+    0xF81F  // Violet
+};
+
 static void init() {
     led_init();
 
@@ -33,18 +44,8 @@ static void init() {
     led_red(false);
 }
 
-// Define rainbow colors in RGB565 format
-static const uint16_t rainbow_colors[] = {
-    0xF800, // Red
-    0xFC00, // Orange
-    0xFFE0, // Yellow
-    0x07E0, // Green
-    0x001F, // Blue
-    0x781F, // Indigo
-    0xF81F  // Violet
-};
-static const size_t rainbow_colors_count = sizeof(rainbow_colors) / sizeof(rainbow_colors[0]);
 
+static const size_t rainbow_colors_count = sizeof(rainbow_colors) / sizeof(rainbow_colors[0]);
 static size_t current_color_index = 0;
 static uint16_t color_background;
 static const uint8_t totalSteps = 20; // Total steps for smooth transition
